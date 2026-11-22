@@ -1,0 +1,21 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "garmin-connector",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-11-01",
+  "workers_dev": true,
+  "observability": { "enabled": true },
+  // Secrets live in the account-level Secrets Store (scope: Workers).
+  "secrets_store_secrets": [
+    {
+      "binding": "GARMIN_PERSONAL_API_KEY",
+      "store_id": "4408991b9c0a43f5b78d7ee8bc9b7e83",
+      "secret_name": "GARMIN_PERSONAL_API_KEY"
+    },
+    {
+      "binding": "MUSE_CONNECTOR_TOKEN",
+      "store_id": "4408991b9c0a43f5b78d7ee8bc9b7e83",
+      "secret_name": "MUSE_CONNECTOR_TOKEN"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "activityId": 21000000001,
+    "activityName": "Strength",
+    "startTimeLocal": "2026-11-18 06:30:12",
+    "activityType": {"typeId": 13, "typeKey": "strength_training", "parentTypeId": 29},
+    "duration": 3120.457,
+    "elapsedDuration": 3300.0,
+    "calories": 412.0,
+    "bmrCalories": 98.0
+  },
+  {
+    "activityId": 21000000002,
+    "activityName": "Cardio",
+    "startTimeLocal": "2026-11-19 18:05:00",
+    "activityType": {"typeId": 160, "typeKey": "indoor_cardio", "parentTypeId": 29},
+    "duration": 1800.0,
+    "calories": 0,
+    "bmrCalories": 0
+  },
+  {
+    "activityId": 21000000003,
+    "activityName": "Morning Run",
+    "startTimeLocal": "2026-11-20 07:15:32.0",
+    "activityType": {"typeId": 1, "typeKey": "running", "parentTypeId": 17},
+    "duration": 2710.9,
+    "bmrCalories": 60.0
+  },
+  {
+    "activityId": 21000000004,
+    "activityName": "Run leg of triathlon",
+    "startTimeLocal": "2026-11-20 09:00:00",
+    "parentId": 21000000005,
+    "activityType": {"typeId": 1, "typeKey": "running", "parentTypeId": 17},
+    "duration": 600.0,
+    "calories": 90.0
+  }
+]
